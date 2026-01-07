@@ -7,7 +7,7 @@ public abstract class Pet {
     String name;
     Date birthDate;
 
-    // constructors
+    // constructor
     public Pet(String name) {
         this.name = name;
         this.birthDate = new Date();
